@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet Challenge Part 1</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin="" />
+
+    <!-- Leaflet JavaScript code -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+    <!-- D3 library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <!-- Chroma library -->
+    <script src="https://unpkg.com/chroma-js@3.1.2/dist/chroma.min.cjs"
+    type="text/js"
+    integrity="sha384-xVq4yMXaVnA5KrUZSuGZy2KOM3yaDzHhbJKwrC/PK6Y+e+V+QLJNveHpQtcE9LL7"
+    crossorigin="anonymous"></script>
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+<body>
+    <h1>All Earthquakes in the Past 7 Days</h1>
+    
+    
+    <!-- The div where we'll insert our map -->
+    <div id="map"></div>
+
+    <p>Earthquake markers are scaled by size according to magnitude and by color according to depth (in meters).</p>
+
+    <!-- JavaScript file -->
+    <script type="module" src="static/js/earthquakes-1.js"></script>
+</body>
+</html>
