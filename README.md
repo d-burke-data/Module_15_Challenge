@@ -17,9 +17,11 @@ Part 1
 Part 2
 + earthquakes-2.html *(HTML file for displaying the Leaflet map, with fault lines and additional base map options)*
 + static/js/earthquakes-2.js *(JavaScript file for handling data and Leaflet map display)*
++ static/data/GeoJSON/PB2002_boundaries.json *(JSON file containing fault line shape data)*
 
 ## Data Source
-US Geological Survey (USGS): https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
++ Earthquakes from US Geological Survey (USGS): https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
++ Tectonic Plates from fraxen (Hugo Ahlenius): https://github.com/fraxen/tectonicplates
 
 ## Plugins
 + Leaflet https://leafletjs.com/
